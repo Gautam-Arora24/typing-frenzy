@@ -1,24 +1,17 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useState, useRef } from "react";
+// import Words from "./Components/Words";
+import faker from "faker";
+import Words from "./Components/Words";
+import Textarea from "./Components/Textarea";
+import Restartbutton from "./Components/Restartbutton";
 
 function App() {
+  const [words, setwords] = useState(" ");
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Words />
+      <Textarea state={words} />
     </div>
   );
 }
