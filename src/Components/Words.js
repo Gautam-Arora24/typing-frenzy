@@ -7,7 +7,7 @@ export default function Words(props) {
   return (
     <div>
       <p>{faker.random.words()}</p>
-      <h1>Hello</h1>
+      <h1>Hellohi you</h1>
     </div>
   );
 }
