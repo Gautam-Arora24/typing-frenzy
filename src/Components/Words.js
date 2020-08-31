@@ -1,13 +1,22 @@
 import React, { useState } from "react";
-import faker from "faker";
 
-export default function Words(props) {
-  const [words, setwords] = useState(" ");
+export default function Words({ userInput, dummyText }) {
+  const Text = dummyText.split("");
 
   return (
-    <div>
-      <p>{faker.random.words()}</p>
-      <h1>Hellohi you</h1>
+    <div className="words">
+      {Text.map((item, index) => {
+        let color;
+        if (index < userInput.length) {
+          color = item === userInput[index] ? "green" : "red";
+        }
+
+        return (
+          <span key={index} style={{ backgroundColor: color }}>
+            {item}
+          </span>
+        );
+      })}
     </div>
   );
 }
