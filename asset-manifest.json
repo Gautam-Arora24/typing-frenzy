@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/typing-frenzy/static/css/main.d81ef22e.chunk.css",
+    "main.js": "/typing-frenzy/static/js/main.466c0481.chunk.js",
+    "main.js.map": "/typing-frenzy/static/js/main.466c0481.chunk.js.map",
+    "runtime-main.js": "/typing-frenzy/static/js/runtime-main.8adf8caa.js",
+    "runtime-main.js.map": "/typing-frenzy/static/js/runtime-main.8adf8caa.js.map",
+    "static/js/2.aef2b310.chunk.js": "/typing-frenzy/static/js/2.aef2b310.chunk.js",
+    "static/js/2.aef2b310.chunk.js.map": "/typing-frenzy/static/js/2.aef2b310.chunk.js.map",
+    "index.html": "/typing-frenzy/index.html",
+    "precache-manifest.91f9a5a3e09f25911c33dbe6e4a95075.js": "/typing-frenzy/precache-manifest.91f9a5a3e09f25911c33dbe6e4a95075.js",
+    "service-worker.js": "/typing-frenzy/service-worker.js",
+    "static/css/main.d81ef22e.chunk.css.map": "/typing-frenzy/static/css/main.d81ef22e.chunk.css.map",
+    "static/js/2.aef2b310.chunk.js.LICENSE.txt": "/typing-frenzy/static/js/2.aef2b310.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8adf8caa.js",
+    "static/js/2.aef2b310.chunk.js",
+    "static/css/main.d81ef22e.chunk.css",
+    "static/js/main.466c0481.chunk.js"
+  ]
+}
